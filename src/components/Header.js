@@ -1,7 +1,7 @@
 
 
 const Header = () => {
-  return `
+  return /*html*/`
     <header>
     <div class="container">
       <nav class="navbar">
@@ -11,10 +11,10 @@ const Header = () => {
         </div>
         <!-- links -->
         <ul class="navbar__links">
-          <li class="navbar__link"><a href="#works">Work</a></li>
+          <li class="navbar__link"><a href="#">Work</a></li>
           <li class="navbar__link"><a href="#things">About</a></li>
           <li class="navbar__link"><a href="#works">Resume</a></li>
-          <a href="Footer.js"><button class="navbar__btn">Contact</button></a>
+          <a href="https://drive.google.com/drive/u/1/my-drive"><button class="navbar__btn">Contact</button></a>
         </ul>
         <!-- menu button -->
         <div class="navbar__icons">

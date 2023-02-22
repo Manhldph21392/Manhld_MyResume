@@ -7,12 +7,14 @@ import {render , router } from "./src/lib";
 import AdminProjects from "./src/admin/Projects";
 import AdminProjectAdd from "@/admin/Project-add";
 import AdminProjectEdit from "@/admin/Project-edit";
+import Footer from "@/components/Footer";
 
 
 const app = document.querySelector("#app");
 
 router.on("/HomePage" , () => render(HomePage,app));
-router.on("/project/id",({data}) => render(() =>AdminProjects(data),app))
+router.on("/project/id",({data}) => render(() =>AdminProjects(data),app));
+router.on("/porforlio", () =>render (Footer),app);
 
 // Admin
 router.on("/admin/projects", () => render(AdminProjects,app));

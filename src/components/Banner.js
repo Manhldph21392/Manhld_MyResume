@@ -13,7 +13,7 @@ const Banner = () => {
         <p>
           I'm Front End Deverloper
         </p>
-        <a href="https://drive.google.com/drive/u/0/my-drive"><button class="banner__btn">My resume</button></a>
+        <a href="https://drive.google.com/drive/u/1/my-drive"><button class="banner__btn">My resume</button></a>
         <div class="banner__socials">
           <a href="https://www.facebook.com/profile.php?id=100038477689833"><i class="fa-brands fa-facebook-f"></i></a>
           <a href="https://www.instagram.com/manh_luuu.183/"><i class="fa-brands fa-instagram"></i></a>

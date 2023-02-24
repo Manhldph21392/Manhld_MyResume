@@ -23,7 +23,7 @@ useEffect(() =>{
       <h2>My Projects</h2>
       <!-- img -->
       <div class="works__img">
-      <h1>Quản lí dự án</h1>
+     
       <table class="table table-bordered">
       <thead>
         
@@ -31,6 +31,8 @@ useEffect(() =>{
       <th>STT</th>
       <th>Tên dự án</th>
       <th>Desc</th>
+      <th>IMG</th>
+      <th>Link Github</th>
       <th></th>
     </tr>
       </thead>
@@ -42,6 +44,8 @@ useEffect(() =>{
       <td>${index + 1}</td>
       <td>${project.title}</td>
       <td>${project.desc}</td>
+      <td><img src = "${project.gallery}"></td>
+      <td>${project.gitlink}</td>
       <td>
         
         </td>

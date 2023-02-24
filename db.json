@@ -1,34 +1,11 @@
 {
   "projects": [
     {
-      "title": "Dự án 1",
-      "desc": "JS",
-      "id": 1
-    },
-    {
-      "title": "Iphone",
-      "desc": "Mạnh",
-      "id": 2
-    },
-    {
-      "title": "BigShoes",
-      "desc": "Mạnh",
-      "id": 3
-    },
-    {
-      "title": "ECMA",
-      "desc": "JS & HTML&CSS",
-      "id": 18
-    },
-    {
-      "title": "Iphone 14 Promaxx",
-      "desc": "JAVASCRIPT",
-      "id": 19
-    },
-    {
-      "title": "dự án mới",
-      "desc": "JAVASCRIPT",
-      "id": 20
+      "title": "Dự án 2 update",
+      "desc": "JAVASCRIPT 1",
+      "img": "C:\\fakepath\\icon_fake.png",
+      "gitlink": "manhld update",
+      "id": 28
     }
   ]
 }

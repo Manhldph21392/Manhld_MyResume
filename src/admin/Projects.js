@@ -40,6 +40,8 @@ const AdminProjects = () => {
     <th>STT</th>
     <th>Tên</th>
     <th>Desc</th>
+    <th>IMG</th>
+    <th>Link Github</th>
     <th></th>
   </tr>
     </thead>
@@ -51,6 +53,8 @@ const AdminProjects = () => {
     <td>${index + 1}</td>
     <td>${project.title}</td>
     <td>${project.desc}</td>
+    <td><img src = "${project.gallery}"}></td>
+    <td>${project.gitlink}</td>
     <td>
       <button data-id = "${
         project.id
